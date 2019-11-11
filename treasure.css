@@ -1,0 +1,100 @@
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2018/03/13/22/12/coffee-3223862_960_720.jpg");
+    padding: 100px;
+}
+h1{
+    border: 5px solid black;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Liu Jian Mao Cao', cursive;
+}
+h1:hover{
+    border: 5px solid white;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Liu Jian Mao Cao', cursive;
+    background-color: white;
+}
+ol{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tdd{
+    background-color: #dedede;
+}
+.td:hover{
+    background-color: white;
+}
+#coffeeBack{
+    background-color: rgba(252, 248, 245, 0.8);
+    padding: 10px;
+}
+#coffeeFont{
+    text-align: center;
+    font-family: 'Supermercado One', cursive;
+    font-size: 20px;
+}
+.font{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+.font2{
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+.questionBox{
+    border: solid black 4px;
+    text-align: center;
+    padding: 1px 30px;
+}
+a.hiddenTab {
+    text-decoration: none;
+    color: black;
+}
+.turns{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Liu Jian Mao Cao', cursive;
+    width: 100px;
+  padding: 20px 20px;
+  border: 5px solid black;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+.table{
+     border: 0;
+     display:flex;
+     flex-direction: column;
+     align-items: center;
+     align-content: space-between;
+}
+.button {
+  background-color: grey;
+  font-family: 'Lobster', cursive;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+button:hover{
+    background-color: #878a88;
+    font-family: 'Lobster', cursive;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: white;
+}

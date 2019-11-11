@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Supermercado+One&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="https://freesvg.org/img/pitr_Coffee_cup_icon.png">
+        <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="treasure.css">
+        <meta charset="utf-8">
+        <title>Treasure Hunt</title>
+    </head>
+    <body>
+        <div id="coffeeBack">
+        <h1><a class="hiddenTab" href="https://betterbuzzcoffee.com/" target="_blank">Coffee, Coffee, Coffee</a></h1>
+        <p class="font2">Welcome to our hunt for caffeine!  You will find an amazing prize ☕️ or a terrible surprise 💩. Have fun!</p>
+        <h3 class="font">Game Rules :</h3>
+        <div id="coffeeFont">
+        <ol>
+            <li>Rule: You will have 5 turns to find the Coffee Cup. Once you reach 5 turns, the game will end.</li>
+            <li>Rule: If you find the 💩, you will lose one turn.</li>
+            <li>Rule: If you find the 😵, you automatically lose and the game will end.</li>
+            <li>Rule: If you find the ☕️, you automatically win.</li>
+        </ol>
+        <br>
+        <table border="0">
+            <tr>
+                <td class="font2">Turns left : </td>
+                <td class="turns tdd" id="counter">5</td>
+            </tr>
+        </table>
+        <br>
+        <div id="gameBoard">
+        <table border="0" class="table" cellspacing="5">
+            <tr style="font-size: 100px">
+                <td class="questionBox td" id="0" onclick="tableClick(0)">?</td>
+                <td class="questionBox td" id="1" onclick="tableClick(1)">?</td>
+                <td class="questionBox td" id="2" onclick="tableClick(2)">?</td>
+                <td class="questionBox td" id="3" onclick="tableClick(3)">?</td>
+            </tr>
+            <tr style="font-size: 100px">
+                <td class="questionBox td" id="4" onclick="tableClick(4)">?</td>
+                <td class="questionBox td" id="5" onclick="tableClick(5)">?</td>
+                <td class="questionBox td" id="6" onclick="tableClick(6)">?</td>
+                <td class="questionBox td" id="7" onclick="tableClick(7)">?</td>
+            </tr>
+            <tr style="font-size: 100px">
+                <td class="questionBox td" id="8" onclick="tableClick(8)">?</td>
+                <td class="questionBox td" id="9" onclick="tableClick(9)">?</td>
+                <td class="questionBox td" id="10" onclick="tableClick(10)">?</td>
+                <td class="questionBox td" id="11" onclick="tableClick(11)">?</td>
+            </tr>
+            <tr style="font-size: 100px">
+                <td class="questionBox td" id="12" onclick="tableClick(12)">?</td>
+                <td class="questionBox td" id="13" onclick="tableClick(13)">?</td>
+                <td class="questionBox td" id="14" onclick="tableClick(14)">?</td>
+                <td class="questionBox td" id="15" onclick="tableClick(15)">?</td>
+            </tr>
+        </table>
+        </div>
+        <button class="button" onClick="window.location.reload();" value="Reload Page" type="button" name="button">Restart Game</button>
+        <br>
+        <a class="hiddenTab" href="#top">Back To The Top</a>
+        <hr>
+        <br>
+
+
+        <footer>Marcia and Mary's Game | Jumpstart November </footer>
+        <script type="text/javascript" src="treasure2.js">
+        </script>
+    </div>
+    </div>
+    </body>
+</html>
